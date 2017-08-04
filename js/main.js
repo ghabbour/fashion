@@ -3,6 +3,7 @@ $(function(){
   $('.menu-btn').click(function(){
     $('.navmenu').slideToggle();
   });
+  
 
   // Initialize smooth smooth-scroll
   smoothScroll.init({

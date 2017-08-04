@@ -12,7 +12,7 @@ nav {
     font-family: "Playfair Display", serif;
     font-size: 2em;
     margin: 1em 0;
-    color: #333;
+    color: #8e44ad;
     text-decoration: none; }
   nav .menu-btn {
     display: none; }
@@ -139,11 +139,8 @@ nav {
       left: 10%;
       border: 3px solid #ccc;
       width: 80%;
-      height: 50vh;
+      height: 55vh;
       z-index: 1; }
-@media(max-width: 992px) {
-  #welcome .wrapper .outline {
-    height: 290px; } }
 @media(max-width: 480px) {
   #welcome .wrapper .outline {
     height: 200px; } }
@@ -226,6 +223,9 @@ nav {
     font-style: italic;
     margin: 3em 0 5em; }
 
+@media(max-width: 768px) {
+  #testimonials .item h4 {
+    font-size: 1.15em; } }
 #blog {
   padding: 5em 0; }
   #blog .headline h2 {
